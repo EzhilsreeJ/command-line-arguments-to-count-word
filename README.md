@@ -9,7 +9,7 @@ Anaconda - Python 3.7
 Import the sys module.
 
 ### Step 2: 
- Pass the filename as the first argument after the name of script. Open the file as sys.argv[1]
+Pass the filename as the first argument after the name of script. Open the file as sys.argv[1]
 ### Step 3: 
 Read the file using read() method.
 ### Step 4:  
@@ -31,8 +31,10 @@ data=fp.read()
 words=data.split()
 print("Total Words:",len(words))
 ```
+
 ### OUTPUT:
-![output](/output.png)
+
+![Alt text](<Screenshot 2024-01-02 205051.png>)
 
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
